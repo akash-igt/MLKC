@@ -1162,7 +1162,7 @@ def security_tools(cluster_name):
                     '--set', 'falcosidekick.enabled=true',
                     f'--set', f'falcosidekick.config.slack.webhookurl={webhook_url}',
                     '--set', 'falcosidekick.config.slack.minimumpriority=notice',
-                    '--set', 'falcosidekick.config.customfields="user:arunvel"'
+                    '--set', 'falcosidekick.config.customfields="user:akash"'
                 ]
                 subprocess.run(command, check=True)
                 return jsonify({'success': True, 'message': 'Falco installed successfully'})
@@ -1308,7 +1308,7 @@ def tools(cluster_name):
                     '--set', 'falcosidekick.enabled=true',
                     f'--set', f'falcosidekick.config.slack.webhookurl={webhook_url}',
                     '--set', 'falcosidekick.config.slack.minimumpriority=notice',
-                    '--set', 'falcosidekick.config.customfields="user:arunvel"'
+                    '--set', 'falcosidekick.config.customfields="user:akash"'
                 ]
                 subprocess.run(command, check=True)
                 return jsonify({'success': True, 'message': 'Falco installed successfully'})
