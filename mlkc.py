@@ -2315,13 +2315,13 @@ spec:
               storage: 2Gi
   params:
     - name: ci-repo-url
-      value: https://github.com/arunvel1988/docker_app_ci
+      value: https://github.com/akash-igt/git_tekton_ci
     - name: cd-repo-url
-      value: https://github.com/arunvel1988/docker_app_cd
+      value: https://github.com/akash-igt/git_argo_cd
     - name: image-reference
       value: {image_url}
     - name: IMAGE_URL
-      value: arunvel1988/tekton-ci-argo-cd
+      value: akashigt/tekton-ci-argo-cd
 
 
 """
